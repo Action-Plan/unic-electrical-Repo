@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Previous Project Forms</title>
+    <style>
+
+        /** Master **/
+        body {
+            margin: 0px;
+        }
+        #Unic_Master_Page__header {
+            background: lightgreen;
+            height: 30%;
+            width: 99.5%;
+            border-color: white;
+            border-width: 2px;
+            border-style: solid;
+            position: absolute;
+        }
+        #Unic_Master_Page__header_table {
+            background-color: lightblue;
+            width: 100%;
+        }
+        #Unic_Master_Page__content {
+            background: lightblue;
+            height: 60%;
+            width: 79.5%;
+            border: white;
+            border-width: 2px;
+            border-style: solid;
+            position: absolute;
+            top: 30%;
+            left: 20%;
+        }
+        #Unic_Master_Page__sidebar {
+            background: LightGreen;
+            height: 60%;
+            width: 20%;
+            border-color: white;
+            border-style: solid;
+            position: absolute;
+            top: 30%;
+        }
+        #Unic_Master_Page__footer {
+            background: lightgreen;
+            height: 9%;
+            border: white;
+            border-width: 2px;
+            border-style: solid;
+            position: absolute;
+            top: 90%;
+            width: 99.5%;
+        }
+
+        /** Payment Form **/
+
+        #Unic_API_Payment_form {
+            margin: 10%
+        }
+        #Unic_API_Payment_form__div_product_name {
+            /*background-color: yellow*/
+        }
+
+        #Unic_API_Payment_form__lbl_product_name {
+            margin-right: 14%;
+        }
+
+        #Unic_API_Payment_form_txt_product_name {
+            /*width: 50%;*/
+        }
+
+        #Unic_API_Payment_form_div_product_description {
+            /*background-color: aqua;*/
+            /*margin-top: 1%;*/
+        }
+        #Unic_API_Payment_form___lbl_product_description {
+            margin-right: 11%;
+        }
+        #Unic_API_Payment_form___txta_product_description {
+            width: 50.2%;
+        }
+        #Unic_API_Payment_form__div_product_image {
+            /*background-color: orange;*/
+            /*margin-top: 1%;*/
+        }
+        #Unic_API_Payment_form__lbl_product_image {
+            margin-right: 13.7%;
+        }
+        #Unic_API_Payment_form__txt_product_image {
+            /*width: 50%;*/
+        }
+        #Unic_API_Payment_form_div_buttons {
+            /*background-color: purple;*/
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+        }
+
+         #Unic_API_Payment_form__btn_cancel{
+            margin-left:1%
+        }
+
+        .Unic_API_Payment_form__text{
+            width:50%;
+        }
+
+        .Unic_API_Payment_form__div{
+            margin-top:1%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Unic_Master_Page__header">
+        <table id="Unic_Master_Page__header_table" border="1">
+            <tbody>
+                <tr>
+                    <th>Home</th>
+                    <th>Services</th>
+                    <th>About us</th>
+                    <th>Contact us</th>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div id="Unic_Master_Page__sidebar"></div>
+    <div id="Unic_Master_Page__content">
+
+      <form id="Unic_API_Payment_form">
+        <div id="Unic_API_Payment_form__div_product_name">
+            <label id="Unic_API_Payment_form__lbl_product_name" for="Unic_API_Payment_form_txt_product_name">Product Name</label>
+            <input type="text" id="Unic_API_Payment_form_txt_product_name" class="Unic_API_Payment_form__text">
+            <br>
+        </div>
+
+        <div id="Unic_API_Payment_form_div_product_description" class="Unic_API_Payment_form__div">
+            <label id="Unic_API_Payment_form___lbl_product_description" for="Unic_API_Payment_form___txta_product_description">Product Description</label>
+            <textarea id="Unic_API_Payment_form___txta_product_description"></textarea>
+            <br>
+        </div>
+
+        <div id="Unic_API_Payment_form__div_product_image" class="Unic_API_Payment_form__div">
+            <label id="Unic_API_Payment_form__lbl_product_image" for="Unic_API_Payment_form__txt_product_image">Product Image</label>
+            <input type="text" id="Unic_API_Payment_form__txt_product_image" class="Unic_API_Payment_form__text"><button>Upload</button>
+            <br>
+        </div>
+        <div id="Unic_API_Payment_form_div_buttons">
+            <input id="Unic_API_Payment_form__btn_submit" type="submit" value="Submit">
+            <input id="Unic_API_Payment_form__btn_cancel" type="button" value="Cancel">
+        </div>
+    </form>
+    </div>
+    <div id="Unic_Master_Page__footer"></div>
+
+
+</body>
+
+</html>
