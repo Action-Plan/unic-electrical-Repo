@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Form</title>
+    <style>
+        body {
+            /*background-color: blanchedalmond*/
+        }
+
+        #Unic_API_Payment_form {
+            margin: 10%
+        }
+        #Unic_API_Payment_form__div_product_name {
+            /*background-color: yellow*/
+        }
+
+        #Unic_API_Payment_form__lbl_product_name {
+            margin-right: 14%;
+        }
+
+        #Unic_API_Payment_form_txt_product_name {
+            /*width: 50%;*/
+        }
+
+        #Unic_API_Payment_form_div_product_description {
+            /*background-color: aqua;*/
+            /*margin-top: 1%;*/
+        }
+        #Unic_API_Payment_form___lbl_product_description {
+            margin-right: 11.5%;
+        }
+        #Unic_API_Payment_form___txta_product_description {
+            width: 50.2%;
+        }
+        #Unic_API_Payment_form__div_product_image {
+            /*background-color: orange;*/
+            /*margin-top: 1%;*/
+        }
+        #Unic_API_Payment_form__lbl_product_image {
+            margin-right: 13.7%;
+        }
+        #Unic_API_Payment_form__txt_product_image {
+            /*width: 50%;*/
+        }
+        #Unic_API_Payment_form_div_buttons {
+            /*background-color: purple;*/
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+        }
+        #Unic_API_Payment_form__btn_cancel{
+            margin-left:1%
+        }
+
+        .Unic_API_Payment_form__text {
+            width: 50%;
+        }
+
+        .Unic_API_Payment_form__div{
+            margin-top:1%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form id="Unic_API_Payment_form">
+        <div id="Unic_API_Payment_form__div_product_name">
+            <label id="Unic_API_Payment_form__lbl_product_name" for="Unic_API_Payment_form_txt_product_name">Product Name</label>
+            <input type="text" id="Unic_API_Payment_form_txt_product_name" class="Unic_API_Payment_form__text">
+            <br>
+        </div>
+
+        <div id="Unic_API_Payment_form_div_product_description" class="Unic_API_Payment_form__div">
+            <label id="Unic_API_Payment_form___lbl_product_description" for="Unic_API_Payment_form___txta_product_description">Product Description</label>
+            <textarea id="Unic_API_Payment_form___txta_product_description"></textarea>
+            <br>
+        </div>
+
+        <div id="Unic_API_Payment_form__div_product_image" class="Unic_API_Payment_form__div">
+            <label id="Unic_API_Payment_form__lbl_product_image" for="Unic_API_Payment_form__txt_product_image">Product Image</label>
+            <input type="text" id="Unic_API_Payment_form__txt_product_image" class="Unic_API_Payment_form__text"><button>Upload</button>
+            <br>
+        </div>
+        <div id="Unic_API_Payment_form_div_buttons">
+            <input id="Unic_API_Payment_form__btn_submit" type="submit" value="Submit">
+            <input id="Unic_API_Payment_form__btn_cancel" type="button" value="Cancel">
+        </div>
+    </form>
+
+</body>
+
+</html>
